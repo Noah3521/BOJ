@@ -11,6 +11,7 @@ for i in range(len(H)):
         if(H[i] + H[j] == N):
                 remove1 = H[i]
                 remove2 = H[j]
+                break
 H.remove(remove1)
 H.remove(remove2)
 
