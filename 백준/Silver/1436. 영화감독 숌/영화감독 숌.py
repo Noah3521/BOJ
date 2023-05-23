@@ -4,7 +4,7 @@ cnt = 0
 
 while cnt != N:
     n += 1
-    if str(n).count("666") != 0:
+    if "666" in str(n):
         cnt += 1
 
 print(n)
