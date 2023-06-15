@@ -2,7 +2,6 @@ import sys
 input = sys.stdin.readline
 
 N = int(input())
-computer = 10
 
 dict = {
     0:[10],
